@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;600;700&display=swap");
+
+body {
+	font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.bg-green {
+	background-color: rgb(76, 175, 80);
+}
+
+.hover-green {
+	transition: background-color 200ms ease-in;
+}
+
+.hover-green:hover {
+	background-color: #459c48;
+}
+.text-indigo {
+	background-color: rgb(64, 81, 181);
+}
+
+.text-indigo:hover {
+	background-color: rgb(56, 73, 165);
+}
+
+.material-group {
+	cursor: pointer;
+	color: rgb(84, 84, 84);
+	transition: color 300ms;
+}
+
+.material-group i {
+	font-size: 32px;
+}
+
+.material-group:hover {
+	color: rgb(59, 57, 57);
+}
+
+.main-background {
+	background-image: url("../images/home-image.jpg");
+	background-position: top;
+	background-size: cover;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+.only-bottom {
+	border: none;
+	border-bottom: 1.5px solid rgb(24, 144, 255);
+	padding: 5px 10px;
+	outline: none;
+	border-radius: 0;
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+.mw-400 {
+	max-width: 400px;
+}
+
+.mw-500 {
+	max-width: 500px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.subject-title {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.link-unstyled,
+.link-unstyled:link,
+.link-unstyled:hover {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.navbar-toggler {
+	border: none;
+}
