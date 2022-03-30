@@ -11,6 +11,7 @@
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 		<link rel="stylesheet" href="./styles/main.css" />
 		<link rel="icon" type="image/ico" href="./images/favicon.ico" />
 	</head>
@@ -21,7 +22,7 @@
 					<h2 class="text-white">Acceso a MIeL</h2>
 				</div>
 
-				<form class="container bg-white py-2 rounded-1" action="./interno.html">
+				<form class="container py-2 rounded-1 bg-white" action="./interno.html">
 					<div class="mb-3">
 						<label for="user" class="pointer">Usuario:</label>
 						<input type="text" class="form-control only-bottom" id="user" />
@@ -35,10 +36,38 @@
 					</div>
 
 					<button type="submit" class="btn btn-primary text-uppercase w-100 mb-2">Ingresar</button>
-					<button type="submit" class="btn text-white text-uppercase text-indigo w-100 mt-2">
+					<a
+						type="submit"
+						href="https://mielingreso.unlam.edu.ar/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="btn text-white text-uppercase text-indigo w-100 mt-2"
+					>
 						Cambiar a MIeL ingresantes
-					</button>
+					</a>
 				</form>
+
+				<div class="d-flex justify-content-evenly text-white mt-4">
+					<a
+						class="link-unstyled"
+						href="https://miel.unlam.edu.ar/data2/ayuda/primeros_pasos_2021.pdf"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<i class="material-icons pointer" title="Ir a guia">quiz</i>
+					</a>
+
+					<i class="material-icons pointer" title="Preguntas frecuentes">question_answer</i>
+
+					<a
+						class="link-unstyled"
+						href="https://biblioteca.unlam.edu.ar/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<i class="material-icons pointer" title="Ir a la biblioteca">library_books</i>
+					</a>
+				</div>
 			</div>
 		</div>
 	</body>
